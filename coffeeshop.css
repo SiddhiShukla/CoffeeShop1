@@ -1,0 +1,72 @@
+.footer{
+	background-color: black;
+	color: white;
+	height: 100%
+	font-size: 20px;
+	text-align: center;
+}
+
+.coffee-list{
+	list-style-type: square;
+}
+
+.available-coffee {
+	height: 300px;
+	width: 300px;
+	font-size: 16px;
+}
+.out-of-stock {
+	border-top-style: dotted;
+	border-top-width: 2px;
+	border-top-color: red;
+
+	border-bottom-style: dotted;
+	border-bottom-width: 2px;
+	border-bottom-color: green;
+
+	font-size: 17px;
+	font-style: italic;
+	font-family: Georgia;
+}
+.in-stock {
+	border: 4px double green;
+}
+.div-img {
+	height: 80%;
+	width: 100%;
+}
+#mocha {
+	color: gray;
+}
+
+.pricing-table{
+	width: 100%;
+	border:2px Solid pink;
+	font-family: "Arial Black", Georgia, sans-serif;
+	text-align: center;
+}
+
+.caption-heading{
+	color: #9e3c3c;
+}
+
+th{
+	background-color: #a06f6f;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+}
+
+td{
+	height: 50px;
+	font-size: 22px;
+	color: #381c1c;
+}
+
+.tr-out-of-stock:hover{
+	background-color: #ffcccc;
+}
+
+.tr-in-stock:hover{
+	background-color: #ccffe6;
+}
